@@ -1,7 +1,34 @@
+<script setup>
+useHead({
+    htmlAttrs: {
+        lang: "zh-TW"
+    },
+    title: "夢境漫遊：繪本藝術展",
+    script: [
+        {
+            type: "module",
+            src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js",
+            body: true,
+        },
+        {
+            nomodule: true,
+            src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js",
+            body: true,
+        },
+    ],
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no',
+    charset: 'utf-8',
+    link: {
+        rel: "icon",
+        href: "favicon-32x32.png"
+    }
+})
+</script>
+
 
 <template>
     <div class="relative z-30">
-        <NavBar/>
+        <NavBar />
     </div>
 
     <div class="relative min-h-screen pt-56 pb-40 xl:pt-36 xl:pb-60 md:pb-72 sm:pb-80">

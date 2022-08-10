@@ -1,7 +1,5 @@
 <script setup>
 import axios from "axios";
-import NewsListItem from "./src/NewsListItem.vue";
-import { NuxtLink, RouterView } from "vue-router";
 </script>
 
 <script>
