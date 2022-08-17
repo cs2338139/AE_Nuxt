@@ -45,12 +45,12 @@ export default {
       }
     },
     ToNotFound() {
-    //   this.$router.push({
-    //     name: "NotFound",
-    //     params: { pathMatch: this.$route.path.substring(1).split("/") },
-    //     query: this.$route.query,
-    //     hash: this.$route.hash,
-    //   });
+      this.$router.push({
+        name: "NotFound-View",
+        params: { pathMatch: this.$route.path.substring(1).split("/") },
+        query: this.$route.query,
+        hash: this.$route.hash,
+      });
     },
   },
   created() {
