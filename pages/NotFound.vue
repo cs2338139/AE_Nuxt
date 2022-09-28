@@ -1,5 +1,4 @@
 <script setup>
-import ElementPanel from "../components/ElementPanel/ElementPanel.vue";
 </script>
 
 <template>
